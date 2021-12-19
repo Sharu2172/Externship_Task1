@@ -16,14 +16,14 @@ request body.
 ```
 ## Response body
 * In case of success in sending email, service will respond as -<br>
-```json
+```ruby
 {
     success: true,
     message: "Email sent successfully"
 }
 ```
 * In case of failure in sending email, service will respond as -<br>
-```json
+```ruby
 {
     success: false,
     message: "Error message"
