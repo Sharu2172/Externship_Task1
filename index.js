@@ -50,7 +50,7 @@ app.post('/mail', async (req, res) => {
         });
     } catch (e) {
         // Setting status code to 400 and sending error message
-        const message = (e.message) ? e.message : "Error Message";
+        const message = (e.message) ? e.message : "Unable to send Email. Try Again Later...";
         // Sending response to user
         res.status(400).json({
             "success": false,
