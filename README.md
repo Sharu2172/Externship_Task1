@@ -8,7 +8,7 @@ Create a POST api which will accept receiver email address & email content in th
 request body.
 <br>
 ### Sample request body -<br>
-```json
+```ruby
 {
     to: "srimanta@gmail.com",
     email_body: "Hi there…"
